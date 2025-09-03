@@ -22,7 +22,7 @@ The projects range from:
 ---
 
 ## 📂 Repository Structure
-
+```
 JavaScript/
 │
 ├── JS Projects/ # Folder containing all project files
@@ -31,7 +31,7 @@ JavaScript/
 │
 ├── LICENSE # Open-source MIT license
 └── README.md # Project documentation
-
+```
 Each project is self-contained with its own `index.html`, `styles.css`, and (sometimes) `script.js` for interactivity.
 
 ---

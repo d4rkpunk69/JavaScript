@@ -60,6 +60,8 @@ If you’d like to explore the projects:
 
 ```bash
     cd JavaScript/JS\ Projects
+```
+
 3. Open any project folder and launch the index.html in your browser.
 
 No dependencies are required for most projects since they are built using vanilla JavaScript, HTML, and CSS.
@@ -76,8 +78,7 @@ This project is licensed under the MIT License – you’re free to use, modify,
 
 👨‍💻 Author
 
-Jose (d4rkpunk69)
+Jose ```(d4rkpunk69)```
 Computer Engineer | Passionate about hardware, embedded systems, and web development
 
 ✨ Thanks for visiting my repo! Stay tuned as I keep adding more JavaScript experiments, projects, and solutions 🚀
-```

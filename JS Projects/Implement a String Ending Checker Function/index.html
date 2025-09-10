@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Ending Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>String Ending Checker</h1>
+      <p class="subtitle">Verify if one string ends with another string</p>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <h2>Test the Function</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            id="strToCheck"
+            placeholder="Enter a string (e.g., Jose)"
+            value=""
+          />
+          <input
+            type="text"
+            id="strToCheckAgainst"
+            placeholder="Enter ending to check (e.g., se)"
+            value=""
+          />
+        </div>
+        <button id="checkBtn">Check Ending</button>
+
+        <div class="result" id="result">Result will appear here</div>
+      </div>
+
+      <div class="card code-container">
+        <div class="code-header">
+          <h2>Function Code</h2>
+          <button class="copy-btn" id="copyBtn">Copy Code</button>
+        </div>
+        <pre><code>function confirmEnding(strToCheck, strToCheckAgainst) {
+  
+  let sizeOfAgainst = strToCheckAgainst.length;
+  console.log(sizeOfAgainst);
+  console.log(strToCheck.slice(-sizeOfAgainst));
+
+  if (strToCheck.slice(-sizeOfAgainst) == strToCheckAgainst) {
+    return true;
+  }
+  else return false;
+}
+
+console.log(confirmEnding("Connor", "nor")); // Example usage</code></pre>
+
+        <div class="explanation">
+          <h3>How It Works</h3>
+          <p>
+            This function checks if the first string ends with the second string
+            by:
+          </p>
+          <p>1. Calculating the length of the second string</p>
+          <p>
+            2. Extracting a substring from the end of the first string with the
+            same length
+          </p>
+          <p>3. Comparing this substring with the second string</p>
+          <p>4. Returning true if they match, false otherwise</p>
+          <ul>
+            <li>
+              Note: This is a strict String checker, whitespaces are checked
+              too!
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

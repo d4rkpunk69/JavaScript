@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 500px;
+  align-items: center;
+  background-color: rgb(180, 147, 180);
+  border: 1px solid black;
+  margin: 20px 5px;
+  padding: 10px;
+}

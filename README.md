@@ -22,7 +22,9 @@ The projects range from:
 ---
 
 ## 📂 Repository Structure
-```UNFINISHED```
+
+`UNFINISHED`
+
 ```
 JavaScript/
 │
@@ -33,6 +35,7 @@ JavaScript/
 ├── LICENSE # Open-source MIT license
 └── README.md # Project documentation
 ```
+
 Each project is self-contained with its own `index.html`, `styles.css`, and (sometimes) `script.js` for interactivity.
 
 ---
@@ -67,7 +70,6 @@ If you’d like to explore the projects:
 
 No dependencies are required for most projects since they are built using vanilla JavaScript, HTML, and CSS.
 
-
 🤝 Contributions
 
 This repo is primarily for personal learning, but I’d love to connect with fellow developers!
@@ -79,7 +81,14 @@ This project is licensed under the MIT License – you’re free to use, modify,
 
 👨‍💻 Author
 
-Jose ```(d4rkpunk69)```
+Jose `(d4rkpunk69)`
 Computer Engineer | Passionate about hardware, embedded systems, and web development
 
 ✨ Thanks for visiting my repo! Stay tuned as I keep adding more JavaScript experiments, projects, and solutions 🚀
+
+Update!!!
+To commit, please follow this template
+
+```
+git commit -m "update [m][dd][yy]-[noOfCommitsOnTheSameDay]"
+```
